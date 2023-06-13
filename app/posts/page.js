@@ -1,5 +1,6 @@
+import AllPosts from "@/components/posts/all-posts";
 import styles from "./page.module.css";
 
 export default function AllPostsPage() {
-  return <div></div>;
+  return <AllPosts posts={props.posts} />;
 }
